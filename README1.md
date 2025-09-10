@@ -112,6 +112,7 @@ Some commands:
 1. Ping all servers : ansible all -m ping
 2. Ping only webservers: ansible webservers -m ping
 3. Run a command on dbservers: ansible dbservers -a "sudo apt update"
+4. run playbook: ansible-playbook install abc.yml
 
 
 
