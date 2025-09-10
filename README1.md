@@ -104,7 +104,9 @@ Key Notes
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ansible-inventory --list
 
-In Ansible, the inventory list is a file that contains the list of servers (hosts) you want to manage, grouped logically. By default, it’s located at /etc/ansible/hosts, but you can create your own inventory files anywhere.
+In Ansible, the inventory list is a file that contains the list of servers (hosts) you want to
+manage, grouped logically. By default, it’s located at /etc/ansible/hosts, but you can create your
+own inventory files anywhere.
 
 Some commands:
 1. Ping all servers : ansible all -m ping
