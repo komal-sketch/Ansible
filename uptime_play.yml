@@ -1,0 +1,10 @@
+
+
+name: UPtime Playbook
+hosts: servers                   # the same group name which was created in Ansible server Management
+tasks:
+  - name: Show Date
+    command: Date
+
+  - name: Show UPtime
+    command: Uptime

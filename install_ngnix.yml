@@ -1,0 +1,17 @@
+-
+ name: Install Nginx and Start
+ hosts: servers
+ become: yes             # need root user access
+ tasks:
+  - name: Install Nginx
+    apt: 
+     name: Nginx
+     status: latest
+
+  - name: Start Nginx
+    service:
+     name: nginx
+     status: started
+     enabled: yes
+     
+    
